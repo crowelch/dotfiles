@@ -1,7 +1,7 @@
-@rjhilgefort dotfiles
+@crowelch dotfiles
 ---------------------
 
-My configuration files.
+My configuration files based on @rjhilgefort's dotfiles.
 
 # Environment Dependencies
 
@@ -32,4 +32,3 @@ My configuration files.
 		- "Key Repeat" Tab
 			- Basic Configurations > Key Repeat > Delay Until Repeat > 0
 			- Basic Configurations > Key Repeat > Key Repeat > 20
-
