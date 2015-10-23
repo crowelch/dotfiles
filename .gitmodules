@@ -1,0 +1,51 @@
+[submodule ".src/terminal-piperita"]
+	path = .src/terminal-piperita
+	url = https://github.com/jacobtomlinson/terminal-piperita.git
+[submodule ".src/base16-iterm2"]
+	path = .src/base16-iterm2
+	url = https://github.com/chriskempson/base16-iterm2.git
+[submodule ".src/base16-vim"]
+	path = .src/base16-vim
+	url = https://github.com/chriskempson/base16-vim.git
+[submodule ".src/base16-osx-color-palette"]
+	path = .src/base16-osx-color-palette
+	url = https://github.com/chriskempson/base16-osx-color-palette.git
+[submodule ".src/base16-builder"]
+	path = .src/base16-builder
+	url = https://github.com/chriskempson/base16-builder.git
+[submodule ".src/base16-shell"]
+	path = .src/base16-shell
+	url = https://github.com/chriskempson/base16-shell.git
+[submodule ".src/powerline-fonts"]
+	path = .src/powerline-fonts
+	url = https://github.com/Lokaltog/powerline-fonts.git
+[submodule ".src/tmux-powerline"]
+	path = .src/tmux-powerline
+	url = https://github.com/erikw/tmux-powerline.git
+[submodule ".src/zsh-autosuggestions"]
+	path = .src/zsh-autosuggestions
+	url = https://github.com/tarruda/zsh-autosuggestions.git
+[submodule ".src/powerline"]
+	path = .src/powerline
+	url = https://github.com/Lokaltog/powerline.git
+[submodule ".src/git-merge-forward"]
+	path = .src/git-merge-forward
+	url = git@github.com:rjhilgefort/git-merge-forward.git
+[submodule ".src/reslate"]
+	path = .src/reslate
+	url = https://github.com/lunixbochs/reslate.git
+[submodule ".zprezto"]
+	path = .zprezto
+	url = https://github.com/rjhilgefort/prezto.git
+[submodule ".hammerspoon"]
+	path = .hammerspoon
+	url = git@github.com:rjhilgefort/.hammerspoon.git
+[submodule ".vim"]
+	path = .vim
+	url = git@github.com:rjhilgefort/.vim.git
+[submodule ".emacs.d"]
+	path = .emacs.d
+	url = git@github.com:syl20bnr/spacemacs.git
+[submodule ".spacemacs"]
+	path = .spacemacs
+	url = git@github.com:rjhilgefort/.spacemacs.git

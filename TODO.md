@@ -1,0 +1,21 @@
+- Slate
+	- Make layouts
+	- Fix application switching in OSX since switching to `cmd;shift`
+- Homebrew
+	- Convert scripts to plain old shell scripts
+	- Try running them on a new machine (and see what's missing)
+- Dependencies
+	- npm install script
+		- shelljs
+		- grunt-cli
+		- grunt
+		- instant-markdown-d
+		- jshint
+	- gem install script
+		- tmuxinator
+		- pygments.rb
+		- redcarpet
+		- git-up
+		- bropages
+	- Other install script
+		- pip install --user git+git://github.com/Lokaltog/powerline

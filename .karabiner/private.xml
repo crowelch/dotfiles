@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>F19 to Control/Escape</name>
+		<appendix>(F19 to control when held, escape by itself)</appendix>
+		<identifier>private.f19_control_escape</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::F19,
+			KeyCode::CONTROL_L,
+			KeyCode::ESCAPE
+		</autogen>
+	</item>
+	<item>
+		<name>F18 to Hyper/Escape</name>
+		<appendix>(F18 to Hyper when held, escape by itself)</appendix>
+		<identifier>private.f18_hyper_escape</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::F18,
+			KeyCode::COMMAND_L,
+			ModifierFlag::OPTION_L | ModifierFlag::CONTROL_L,
+			KeyCode::ESCAPE
+		</autogen>
+	</item>
+	<item>
+		<name>F1 to Shift/F1</name>
+		<appendix>(F1 to Shift when held, F1 by itself)</appendix>
+		<identifier>private.f1_shift_f1</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::F1,
+			KeyCode::SHIFT_L,
+			KeyCode::F1
+		</autogen>
+	</item>
+</root>
