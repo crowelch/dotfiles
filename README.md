@@ -1,4 +1,4 @@
-@crowelch dotfiles
+crowelch's dotfiles
 ---------------------
 
 My configuration files based on @rjhilgefort's dotfiles.
