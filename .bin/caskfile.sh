@@ -4,8 +4,8 @@
 # Usage: `brew bundle [.bin/]Caskfile`
 
 # Setup
-brew install brew caskroom/brew cask/brew-brew cask
-brew tap brew caskroom/versions
+brew install caskroom/cask/brew-cask
+# brew tap brew caskroom/versions
 
 ###############################################################################
 # Core
@@ -30,7 +30,7 @@ brew cask install 1password 2> /dev/null
 brew cask install sonos 2> /dev/null
 # brew cask install clear 2> /dev/null
 # brew cask install hipchat 2> /dev/null
-brew cask install slack
+brew cask install slack 2> /dev/null
 # brew cask install seil 2> /dev/null
 brew cask install karabiner 2> /dev/null
 brew cask install hammerspoon 2> /dev/null
@@ -38,10 +38,10 @@ brew cask install hammerspoon 2> /dev/null
 brew cask install disk-inventory-x 2> /dev/null
 brew cask install drobo-dashboard 2> /dev/null
 #
-brew cask install arduino
-brew cask install gitx
-brew cask install google-hangouts
-brew cask install mysqlworkbench
+brew cask install arduino 2> /dev/null
+brew cask install gitx 2> /dev/null
+brew cask install google-hangouts 2> /dev/null
+brew cask install mysqlworkbench 2> /dev/null
 
 ###############################################################################
 # Nice To Have
@@ -60,25 +60,26 @@ brew cask install imagealpha 2> /dev/null
 # brew cask install liteicon 2> /dev/null
 # brew cask install boxer 2> /dev/null
 # brew cask install pandoc 2> /dev/null
-brew cask install google-earth
-brew cask install minecraft
-brew cask install picasa
+brew cask install google-earth 2> /dev/null
+brew cask install minecraft 2> /dev/null
+brew cask install picasa 2> /dev/null
 # brew cask install microsoft-office365
 
 ###############################################################################
 # Utility
 ###############################################################################
 brew cask install java 2> /dev/null
-brew cask install silverlight 2> /dev/null
 brew cask install xquartz 2> /dev/null
-brew cask install private-internet-access
+brew cask install private-internet-access 2> /dev/null
+brew cask install utorrent 2> /dev/null
+
 
 ###############################################################################
 # Android
 ###############################################################################
-brew cask install android-file-transfer
-brew cask install android-studio
-brew cask install androidtool
+brew cask install android-file-transfer 2> /dev/null
+brew cask install android-studio 2> /dev/null
+brew cask install androidtool 2> /dev/null
 
 ###############################################################################
 # Maybe/Suggested/Archive
@@ -88,4 +89,4 @@ brew cask install macvim 2> /dev/null
 # brew cask install miro-video-converter 2> /dev/null
 brew cask install the-unarchiver 2> /dev/null
 # brew cask install transmission 2> /dev/null
-brew cask install filezilla
+brew cask install filezilla 2> /dev/null	

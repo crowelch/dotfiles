@@ -74,11 +74,11 @@ brew install fasd
 brew install git-extras
 brew install zlib
 brew install gdb --with-brewed-python
-brew install --HEAD https://raw.github.com/neovim/neovim/master/neovim.rb
+brew tap neovim/homebrew-neovim
+brew install --HEAD neovim
 brew install mutt
 brew install irssi
 brew install task
-brew install tern
 brew install editorconfig
 brew install pandoc
 brew install zsh-completions
@@ -96,30 +96,18 @@ brew install android-sdk
 brew install ant
 
 # Lua
-brew install luarocks
+brew install lua
 
 # Other useful binaries
-# brew install gcc
-# brew install bfg
-# brew install exiv2
-# brew install foremost
-# brew install hashpump
+÷# brew install gcc
 brew install imagemagick --with-webp
-# brew install lynx
-# brew install nmap
-# brew install p7zip
-# brew install pigz
-# brew install pv
-# brew install rename
-# brew install rhino
-# brew install sqlmap
-# brew install tree
-# brew install ucspi-tcp # `tcpserver` et al.
-# brew install webkit2png
-# brew install xpdf
-# brew install zopfli
+brew install nmap
+brew install p7zip
+brew install sqlmap
+brew install tree
+brew install webkit2png
 
-# brew install homebrew/versions/lua52
+brew install homebrew/versions/lua52
 
 # Remove outdated versions from the cellar
 brew cleanup
