@@ -1,6 +1,9 @@
 node_modules
 .tmux.conf.local
 
+# OS Files
+*DS_Store
+
 # vim
 .vim/.netrwhist
 .vim/swaps/*

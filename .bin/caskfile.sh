@@ -27,7 +27,7 @@ brew cask install firefox 2> /dev/null
 brew cask install vlc 2> /dev/null
 brew cask install 1password 2> /dev/null
 # brew cask install istat-menus4 2> /dev/null
-brew cask install sonos 2> /dev/null
+#brew cask install sonos 2> /dev/null
 # brew cask install clear 2> /dev/null
 # brew cask install hipchat 2> /dev/null
 brew cask install slack 2> /dev/null
@@ -51,11 +51,11 @@ brew cask install google-drive 2> /dev/null
 brew cask install adobe-reader 2> /dev/null
 # brew cask install flash 2> /dev/null
 # brew cask install robomongo 2> /dev/null
-brew cask install steam 2> /dev/null
-brew cask install origin 2> /dev/null
+#brew cask install steam 2> /dev/null
+#brew cask install origin 2> /dev/null
 brew cask install virtualbox 2> /dev/null
-brew cask install colloquy 2> /dev/null
-brew cask install imagealpha 2> /dev/null
+#brew cask install colloquy 2> /dev/null
+#brew cask install imagealpha 2> /dev/null
 # brew cask install torbrowser 2> /dev/null
 # brew cask install liteicon 2> /dev/null
 # brew cask install boxer 2> /dev/null
@@ -71,15 +71,22 @@ brew cask install picasa 2> /dev/null
 brew cask install java 2> /dev/null
 brew cask install xquartz 2> /dev/null
 brew cask install private-internet-access 2> /dev/null
-brew cask install utorrent 2> /dev/null
+#brew cask install utorrent 2> /dev/null
 
 
 ###############################################################################
 # Android
 ###############################################################################
+brew install ant 2> /dev/null
+brew install maven 2> /dev/null
+brew install gradle 2> /dev/null
+brew install android-sdk 2> /dev/null
+brew install android-ndk 2> /dev/null
 brew cask install android-file-transfer 2> /dev/null
 brew cask install android-studio 2> /dev/null
+brew cask install android-studio-canary 2> /dev/null
 brew cask install androidtool 2> /dev/null
+
 
 ###############################################################################
 # Maybe/Suggested/Archive
@@ -89,4 +96,4 @@ brew cask install macvim 2> /dev/null
 # brew cask install miro-video-converter 2> /dev/null
 brew cask install the-unarchiver 2> /dev/null
 # brew cask install transmission 2> /dev/null
-brew cask install filezilla 2> /dev/null	
+brew cask install filezilla 2> /dev/null
