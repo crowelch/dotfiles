@@ -21,11 +21,7 @@ brew install coreutils
 brew install moreutils
 brew install binutils
 brew install diffutils
-#brew install ed --with-default-names
 brew install findutils --with-default-names
-#brew install gawk
-#brew install guile --with-default-names
-#brew install gnu-indent --with-default-names
 brew install gnu-sed --with-default-names
 brew install gnu-tar --with-default-names
 brew install gnu-which --with-default-names
@@ -40,19 +36,16 @@ brew install wget --enable-iri
 brew install bash # Don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`
 brew install bash-completion
 brew install emacs
-#brew install gpatch
-#brew install m4
 brew install make
 brew install nano
 brew install emacs-mac --with-spacemacs-icon
 
 # Install more recent versions of some OS X tools
-#brew install file-formula
 brew install git
 brew install less
 brew install openssh --with-brewed-openssl
-#brew install perl518 # must run "brew tap homebrew/versions" first!
 brew install python --with-brewed-openssl
+brew install python3
 brew install rsync
 brew install svn
 brew install unzip
@@ -60,6 +53,7 @@ brew install vim --with-python --with-ruby --with-perl --override-system-vi
 brew install macvim --custom-system-icons --override-system-vim
 
 # General Utilities
+brew install nvm
 brew install node
 brew install zsh
 brew install mongodb
@@ -76,24 +70,22 @@ brew install zlib
 brew install gdb --with-brewed-python
 brew tap neovim/homebrew-neovim
 brew install --HEAD neovim
-#brew install mutt
-#brew install irssi
-#brew install task
-#brew install editorconfig
-#brew install pandoc
 brew install zsh-completions
-#brew install ranger
-#brew install w3m
 brew install markdown
 brew install wemux
+brew install wifi-password
+brew install mysql
 
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
-#brew install homebrew/php/php55 --with-gmp
+
+# Cloud
+brew install awscli
 
 # Android
 brew install android-sdk
 brew install ant
+brew install apktool
 
 # Lua
 brew install lua
@@ -106,8 +98,6 @@ brew install p7zip
 brew install sqlmap
 brew install tree
 brew install webkit2png
-
-#brew install homebrew/versions/lua52
 
 # Remove outdated versions from the cellar
 brew cleanup

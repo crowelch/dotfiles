@@ -14,6 +14,11 @@ alias d="cd ~/dev"
 alias c="clear"
 alias sbrc="source ~/.bashrc"
 alias v="vim"
+alias cdc="cd ~/dev/choremonster/android"
+alias open_screens="open ~/Pictures/screenshots"
+
+# Other useful bits
+alias sadd="ssh-add ~/.ssh/id_rsa"
 
 
 # Git related shortcuts
