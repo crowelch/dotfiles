@@ -5,7 +5,7 @@
 
 # Make sure we’re using the latest Homebrew, Upgrade any already-installed formulae
 brew update
-brew upgrade --all
+brew upgrade
 
 # MOAR PACKAGES!
 brew tap homebrew/dupes
@@ -53,8 +53,8 @@ brew install vim --with-python --with-ruby --with-perl --override-system-vi
 brew install macvim --custom-system-icons --override-system-vim
 
 # General Utilities
-brew install nvm
-brew install node
+#brew install nvm
+brew install node@6 # Install latest of version 6 (2016 LTS)
 brew install zsh
 brew install mongodb
 brew install mongoose
@@ -83,8 +83,11 @@ brew install homebrew/dupes/screen
 brew install awscli
 
 # Android
-brew install android-sdk
 brew install ant
+brew install gradle
+brew install maven
+brew install android-sdk
+brew install android-ndk
 brew install apktool
 
 # Lua
