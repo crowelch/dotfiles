@@ -43,6 +43,7 @@ brew cask install ksdiff 2> /dev/null
 brew cask install adobe-reader 2> /dev/null
 # brew cask install robomongo 2> /dev/null
 brew cask install virtualbox 2> /dev/null
+brew install docker 2> /dev/null
 #brew cask install colloquy 2> /dev/null
 #brew cask install imagealpha 2> /dev/null
 brew cask install google-earth 2> /dev/null
@@ -59,7 +60,8 @@ brew cask install java 2> /dev/null
 brew cask install xquartz 2> /dev/null
 brew cask install private-internet-access 2> /dev/null
 #brew cask install utorrent 2> /dev/null
-# brew cask install caffeine 2> /dev/null
+brew cask install caffeine 2> /dev/null
+brew cask install coconutbattery 2> /dev/null
 
 
 ###############################################################################
@@ -71,6 +73,7 @@ brew cask install android-studio-canary 2> /dev/null
 brew cask install androidtool 2> /dev/null
 brew cask install fastlane 2> /dev/null
 # brew cask install intel-haxm 2> /dev/null
+brew cask install genymotion 2> /dev/null
 
 
 ###############################################################################

@@ -12,6 +12,10 @@ brew tap homebrew/dupes
 brew tap homebrew/versions
 brew tap railwaycat/emacsmacport
 
+# Docker
+brew install docker
+brew install boot2docker
+
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
@@ -95,7 +99,7 @@ brew install lua
 
 # Other useful binaries
 brew install gcc
-#brew install imagemagick --with-webp
+brew install imagemagick --with-webp
 brew install nmap
 brew install p7zip
 brew install sqlmap
