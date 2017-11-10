@@ -24,3 +24,4 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 #export NVM_DIR="/Users/topher/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

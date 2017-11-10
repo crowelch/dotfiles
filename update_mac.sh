@@ -11,11 +11,6 @@ echo "Updating gems..."
 sudo gem update
 sudo gem cleanup
 
-## docker
-cd
-boot2docker init
-boot2docker up
-
 ## android
 # install all sdk components
 echo "Installing Android components..."

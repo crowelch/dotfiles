@@ -18,6 +18,9 @@ alias cdc="cd ~/dev/choremonster/android"
 alias cdf="cd ~/dev/familytech/android"
 alias open_screens="open ~/Pictures/screenshots"
 
+# android
+alias dandroid="studio ./ && gitx ."
+
 # Other useful bits
 alias sadd="ssh-add ~/.ssh/id_rsa"
 
