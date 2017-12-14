@@ -167,3 +167,6 @@ alias wemux-ao='ssh pairprog@192.168.178.102'
 source ~/.iterm2_shell_integration.zsh
 
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+export GOPATH=~/dev/go
+export PATH=$PATH:$GOPATH/bin
