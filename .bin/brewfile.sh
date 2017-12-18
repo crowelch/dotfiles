@@ -93,6 +93,9 @@ brew install android-sdk
 brew install android-ndk
 brew install apktool
 
+# Ruby
+brew install rbenv
+
 # Lua
 brew install lua
 
