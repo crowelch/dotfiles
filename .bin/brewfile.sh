@@ -57,8 +57,7 @@ brew install vim --with-python --with-ruby --with-perl --override-system-vi
 brew install macvim --custom-system-icons --override-system-vim
 
 # General Utilities
-#brew install nvm
-brew install node@6 # Install latest of version 6 (2016 LTS)
+brew install node@8
 brew install zsh
 brew install mongodb
 brew install mongoose

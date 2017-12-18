@@ -64,12 +64,6 @@ alias c="tr -d '\n' | pbcopy"
 
 alias cl="clear"
 
-# Emacs
-alias em="emacs"
-alias ed="emacs --daemon"
-alias ec="emacsclient -c"
-alias e="ec"
-
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
@@ -101,10 +95,6 @@ alias appsoninternet='sudo lsof -P -i -n | cut -f 1 -d " " | uniq'
 # list what ports are currently open
 alias listopenports='sudo lsof -i -P | grep -i "listen"'
 
-# mount the drobster
-alias mount-drobo="mount -t afp afp://rjhilgefort@192.168.200.44/Home ~/Drobo"
-# alias mountdrobo="mount -t smbfs //rjhilgefort@192.168.200.44/Home ~/Drobo"
-
 # list all git submodules in the current directory
 alias git-submodule-list="grep path .gitmodules | sed 's/.*= //'"
 
@@ -125,18 +115,6 @@ alias jem='fasd -f -e emacs'
 alias jopen='fasd -f -e open'
 alias jcat='fasd -f -e cat'
 alias jless='fasd -f -e less'
-
-# ssh shortcuts
-alias ssh-gd='ssh robhilgefort@97.74.249.1'
-alias ssh-mt='ssh robhilgefort.com@s160575.gridserver.com'
-alias ssh-do-personal='ssh -p 4444 rjhilgefort@192.241.245.99'
-alias ssh-pif='ssh robhilgefort@02d005f.netsolhost.com'
-alias ssh-zs-qa='ssh rhilgefort@qa.zipscene.com'
-
-# ssh tunnel on localhost:27018 to qa.zipscene.com for mongo
-alias ssh-zs-qa-tunnel='ssh -f rhilgefort@qa.zipscene.com -L 27018:localhost:27017 -i /Users/rjhilgefort/.ssh/id_rsa -N'
-# ssh tunnel on localhost:27019 to do-personal for mongo
-alias ssh-do-personal-tunnel='ssh -f -p 4444 rjhilgefort@192.241.245.99 -L 27019:localhost:27017 -i /Users/rjhilgefort/.ssh/id_rsa -N'
 
 # taskwarrior
 taskDone() { task $1 done }
