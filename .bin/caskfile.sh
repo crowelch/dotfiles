@@ -21,6 +21,7 @@ brew cask install iterm2 2> /dev/null
 brew cask install dash 2> /dev/null
 brew cask install sublime-text3 2> /dev/null
 brew cask install atom 2> /dev/null
+brew cask install visual-studio-code 2> /dev/null
 # brew cask install evernote 2> /dev/null
 brew cask install spotify 2> /dev/null
 brew cask install vlc 2> /dev/null
